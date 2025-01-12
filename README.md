@@ -13,7 +13,7 @@
 
 # Использование:
 
-1. Установка зависимостей для clang и gcc
+1. Установка зависимостей для clang и gcc:
 
 ```sudo pacman -S llvm clang lld openmp polly```
 
