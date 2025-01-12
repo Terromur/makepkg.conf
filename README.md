@@ -25,7 +25,7 @@
 
 3. Дальше вы можете использовать один из профилей на выбор clang или gcc:
 
-```export PROFILE=polly```  - использование clang+openmp+lld+polly
+```export PROFILE=clang-polly```  - использование clang+openmp+lld+polly
 
 ```export PROFILE=clang``` - использование clang+openmp+lld
 
