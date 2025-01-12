@@ -20,15 +20,15 @@
 
 2. Дальше вы можете использовать один из профилей на выбор clang или gcc:
 
-```export polly```  - использование clang+openmp+lld+polly
+```export PROFILE=polly```  - использование clang+openmp+lld+polly
 
-```export clang``` - использование clang+openmp+lld
+```export PROFILE=clang``` - использование clang+openmp+lld
 
-```export clang-stable``` - использование clang+lld
+```export PROFILE=clang-stable``` - использование clang+lld
 
-```export gcc``` - использование gcc+openmp+ld
+```export PROFILE=gcc``` - использование gcc+openmp+ld
 
-```export gcc-stable``` - использование gcc+ld
+```export PROFILE=gcc-stable``` - использование gcc+ld
 
 3. Соответственно вы можете собирать пакет для Arch Linux:
 
