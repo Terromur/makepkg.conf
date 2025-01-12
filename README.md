@@ -24,11 +24,11 @@
 
 ```export PROFILE=clang``` - использование clang+openmp+lld
 
-```export PROFILE=clang-stable``` - использование clang+lld
+```export PROFILE=clang-stable``` - использование clang+lld с менее агрессивными флагами
 
 ```export PROFILE=gcc``` - использование gcc+openmp+ld
 
-```export PROFILE=gcc-stable``` - использование gcc+ld
+```export PROFILE=gcc-stable``` - использование gcc+ld с менее агрессивными флагами
 
 3. Соответственно вы можете собирать пакет для Arch Linux:
 
