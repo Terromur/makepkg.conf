@@ -2,12 +2,13 @@
 Универсальный makepkg для Arch Linux с агрессивными флагами оптимизации.
 
 # Функционал:
+- makepkg.conf - профили без флагов на безопасность
+- makepkg-safe.conf - профили с добавлением флагов на безопасность
 - Профиль clang+openmp+polly+lld
 - Профиль clang+openmp+lld
 - Профиль clang+lld
 - Профиль gcc+openmp+ld
 - Профиль gcc+ld
-- makepkg-safe.conf - имеет все теже самые профили, но со стандартными флагами на безопасность
 
 # Установка:
 ```sudo cp makepkg.conf /etc/makepkg.conf``` - перезапишется ваш стандартный makepkg.conf, но вы можете переместить makepkg.conf в любое удобное вам место.
