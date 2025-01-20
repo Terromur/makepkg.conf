@@ -21,9 +21,9 @@
 
 2. Если хотите использовать clang или gcc, вам нужно экспортировать один из профилей:
 
-```export USE_LLVM=clang```
+```export USE_COMPILER=clang```
  
-```export USE_GCC=gcc```
+```export USE_COMPILER=gcc```
 
 3. Дальше вы можете использовать один из профилей на выбор clang или gcc:
 
