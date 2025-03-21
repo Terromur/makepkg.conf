@@ -7,7 +7,7 @@
 - Профиль clang+polly+lld
 - Профиль clang+lld
 - Профиль clang+lld
-- Профиль gccp+ld
+- Профиль gcc+ld
 - Профиль gcc+ld
 
 # Установка:
