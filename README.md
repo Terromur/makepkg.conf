@@ -17,7 +17,7 @@
 
 1. Установка зависимостей для clang и gcc:
 
-```sudo pacman -S llvm clang lld openmp polly```
+```sudo pacman -S llvm clang lld polly```
 
 2. Если хотите использовать clang или gcc, вам нужно экспортировать один из профилей:
 
