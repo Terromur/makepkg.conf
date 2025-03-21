@@ -4,10 +4,10 @@
 # Функционал:
 - makepkg.conf - профили без флагов на безопасность
 - makepkg-safe.conf - профили с добавлением флагов на безопасность
-- Профиль clang+openmp+polly+lld
-- Профиль clang+openmp+lld
+- Профиль clang+polly+lld
 - Профиль clang+lld
-- Профиль gcc+openmp+ld
+- Профиль clang+lld
+- Профиль gccp+ld
 - Профиль gcc+ld
 
 # Установка:
