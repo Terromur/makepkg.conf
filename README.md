@@ -11,7 +11,7 @@
 - Профиль gcc+ld
 
 # Установка:
-```sudo rm -f /etc/makepkg.conf && sudo cp -r makepkg.conf /etc/``` - удалится ваш стандартный makepkg.conf и заменится на makepkg.conf из репозитория, но вы можете не делать этого, а переместить makepkg.conf в любое удобное вам место.
+```sudo cp makepkg.conf /etc/makepkg.conf``` - перезапишется ваш стандартный makepkg.conf, но вы можете переместить makepkg.conf в любое удобное вам место.
 
 # Использование:
 
