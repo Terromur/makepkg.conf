@@ -17,7 +17,7 @@
 
 1. Установка зависимостей для clang и gcc:
 
-```sudo pacman -S llvm clang lld polly```
+```sudo pacman -S llvm clang lld```
 
 2. Если хотите использовать clang или gcc, вам нужно экспортировать один из профилей:
 
@@ -27,7 +27,7 @@
 
 3. Дальше вы можете использовать один из профилей на выбор clang или gcc:
 
-```export PROFILE=clang-polly```  - использование clang+lld+polly
+```export PROFILE=clang-mllvm```  - использование clang+lld+mllvm флаги
 
 ```export PROFILE=clang``` - использование clang+lld
 
